@@ -1,0 +1,31 @@
+:root{
+    --color1:#5cc4d7;
+    --color2:#b6cd34;
+    --color3:#a42991;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color1);
+}
+
+#value{
+    margin-left: 10px;
+}
+
+form{
+    display: flex;
+    background-color: #b6cd34;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    margin-left: 10px;
+}
